@@ -317,14 +317,15 @@ h1.hero-name {
     backdrop-filter: var(--blur);
     border: 1px solid var(--glass-border);
     color: var(--text);
+    transition: all 0.25s ease;
 }
 
     .btn-glass:hover {
         border-color: var(--cyan);
         color: var(--cyan);
         transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.25); 
     }
-
 .hero-stats {
     display: flex;
     gap: 2rem;
@@ -603,7 +604,7 @@ h1.hero-name {
     }
 
         .proj-features li::before {
-            content: '?';
+            content: '>';
             position: absolute;
             left: 0;
             color: var(--pink);
