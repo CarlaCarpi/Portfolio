@@ -1,0 +1,202 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carla Carpinetti · Backend Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@400;500;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body>
+
+    <div class="orbs">
+        <div class="orb orb1"></div>
+        <div class="orb orb2"></div>
+        <div class="orb orb3"></div>
+        <div class="orb orb4"></div>
+    </div>
+
+    <nav>
+        <div class="nav-logo">CC/</div>
+        <ul class="nav-links">
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="wrap">
+
+        <!-- HERO -->
+        <section id="hero">
+            <div class="hero-inner">
+                <div class="hero-badge"><span class="dot-live"></span>Disponible · Buenos Aires, Argentina</div>
+                <h1 class="hero-name">
+                    <span class="name-line1">CARLA</span>
+                    <span class="name-line2">CARPINETTI</span>
+                </h1>
+                <p class="hero-sub">Analista de Sistemas · <strong>Backend Developer .NET</strong></p>
+                <p class="hero-desc">Desarrollo aplicaciones web backend con .NET, C#, SQL Server y APIs REST. Experiencia en proyectos reales, arquitectura en capas y buenas prácticas. Buscando mi primer rol profesional como desarrolladora backend.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-glow">Ver proyectos</a>
+                    <a href="#contact" class="btn btn-glass">Contactarme</a>
+                </div>
+                <div class="hero-stats">
+                    <div><div class="stat-num">1</div><div class="stat-label">Proyecto real</div></div>
+                    <div><div class="stat-num">6+</div><div class="stat-label">Tecnologías</div></div>
+                    <div><div class="stat-num">2025</div><div class="stat-label">Egresada</div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about">
+            <p class="s-tag">// 01 · sobre mí</p>
+            <h2 class="s-title">Quién soy</h2>
+            <div class="s-bar"></div>
+            <div class="about-grid">
+                <div class="glass about-card">
+                    <p>Soy Analista de Sistemas de Información egresada del Instituto Superior Nuestra Señora de la Paz (2023–2025), orientada al desarrollo backend con .NET y C#.</p>
+                    <p>Participé en el desarrollo de un sistema web real para una ONG, donde apliqué arquitectura en capas, Entity Framework Core, autenticación JWT y documentación técnica completa.</p>
+                    <p>Cuento con más de 15 años de experiencia profesional en análisis de procesos y coordinación operativa en industria textil, lo que me aportó habilidades sólidas de trabajo en equipo, liderazgo y organización.</p>
+                    <p>Actualmente sigo ampliando mi perfil técnico con cursos de Power BI y Java.</p>
+                </div>
+                <div class="info-rows">
+                    <div class="info-row"><span class="ir-icon">📧</span><div><div class="ir-label">Email</div><div class="ir-val"><a href="mailto:carlavc.86@gmail.com">carlavc.86@gmail.com</a></div></div></div>
+                    <div class="info-row"><span class="ir-icon">📱</span><div><div class="ir-label">Teléfono</div><div class="ir-val"><a href="tel:+5491156606689">11 5660-6689</a></div></div></div>
+                    <div class="info-row"><span class="ir-icon">💼</span><div><div class="ir-label">LinkedIn</div><div class="ir-val"><a href="https://www.linkedin.com/in/carla-carpinetti" target="_blank">carla carpinetti</a></div></div></div>
+                    <div class="info-row"><span class="ir-icon">📍</span><div><div class="ir-label">Ubicación</div><div class="ir-val">Buenos Aires, Argentina</div></div></div>
+                    <div class="info-row"><span class="ir-icon">🎯</span><div><div class="ir-label">Buscando</div><div class="ir-val">Backend Developer Jr · Remoto / Híbrido</div></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills">
+            <p class="s-tag">// 02 · habilidades</p>
+            <h2 class="s-title">Stack técnico</h2>
+            <div class="s-bar"></div>
+            <div class="skills-grid">
+                <div class="glass skill-card">
+                    <div class="sk-head c-pink"><span>⚙️</span> Programación</div>
+                    <div class="tags"><span class="tag t-pink">.NET 8</span><span class="tag t-pink">C#</span><span class="tag t-pink">ASP.NET Web API</span><span class="tag t-pink">Entity Framework Core</span><span class="tag t-pink">JWT Auth</span><span class="tag t-pink">DTOs</span><span class="tag t-pink">MVC</span></div>
+                </div>
+                <div class="glass skill-card">
+                    <div class="sk-head c-teal"><span>🗄️</span> Base de Datos</div>
+                    <div class="tags"><span class="tag t-teal">SQL Server</span><span class="tag t-teal">Diseño relacional</span><span class="tag t-teal">Modelado de datos</span></div>
+                </div>
+                <div class="glass skill-card">
+                    <div class="sk-head c-cyan"><span>🛠️</span> Herramientas</div>
+                    <div class="tags"><span class="tag t-cyan">Git & GitHub</span><span class="tag t-cyan">Postman</span><span class="tag t-cyan">Visual Studio</span><span class="tag t-cyan">Swagger</span><span class="tag t-cyan">Trello</span><span class="tag t-cyan">Office</span></div>
+                </div>
+                <div class="glass skill-card">
+                    <div class="sk-head c-violet"><span>📐</span> Metodologías</div>
+                    <div class="tags"><span class="tag t-violet">Scrum</span><span class="tag t-violet">Arquitectura en capas</span><span class="tag t-violet">API REST</span><span class="tag t-violet">Clean Code</span></div>
+                </div>
+                <div class="glass skill-card">
+                    <div class="sk-head c-yellow"><span>📚</span> En curso</div>
+                    <div class="tags"><span class="tag t-yellow">Power BI</span><span class="tag t-yellow">Java</span></div>
+                </div>
+                <div class="glass skill-card">
+                    <div class="sk-head c-blue"><span>🤝</span> Habilidades blandas</div>
+                    <div class="tags"><span class="tag t-gray">Trabajo en equipo</span><span class="tag t-gray">Liderazgo</span><span class="tag t-gray">Resolución de conflictos</span><span class="tag t-gray">Organización</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+            <p class="s-tag">// 03 · proyectos</p>
+            <h2 class="s-title">Proyectos</h2>
+            <div class="s-bar"></div>
+            <div class="proj-grid">
+                <div class="glass proj-card">
+                    <div class="proj-year">2024 / 2025</div>
+                    <h3>Protectora Santa Ramona</h3>
+                    <div class="proj-role">↳ Desarrolladora Backend .NET · ONG</div>
+                    <p class="proj-desc">Sistema web completo para una organización sin fines de lucro. Desarrollo backend con ASP.NET Web API, modelado de base de datos en SQL Server y documentación funcional y técnica completa.</p>
+                    <ul class="proj-features">
+                        <li>Web API con ASP.NET Core y arquitectura en capas</li>
+                        <li>Modelado e implementación en SQL Server con EF Core</li>
+                        <li>CRUDs completos, validaciones y DTOs</li>
+                        <li>Autenticación JWT y Backoffice MVC</li>
+                        <li>Documentación funcional y técnica</li>
+                    </ul>
+                    <div class="tags">
+                        <span class="tag t-pink">.NET 8</span><span class="tag t-pink">C#</span><span class="tag t-teal">SQL Server</span><span class="tag t-teal">EF Core</span><span class="tag t-cyan">Git</span><span class="tag t-cyan">Swagger</span>
+                    </div>
+
+                    <div class="proj-actions">
+                        <a href="https://santaramona.org" target="_blank" class="btn btn-glow">Ver sitio web</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section id="experience">
+            <p class="s-tag">// 04 · experiencia</p>
+            <h2 class="s-title">Trayectoria</h2>
+            <div class="s-bar"></div>
+            <div class="glass exp-card">
+                <div class="exp-top"><h3>Desarrolladora Backend .NET</h3><span class="exp-badge">2024 – 2025</span></div>
+                <div class="exp-co">Sistema Web · Protectora Santa Ramona (ONG)</div>
+                <ul class="proj-features">
+                    <li>Desarrollo de Web API con ASP.NET y arquitectura en capas</li>
+                    <li>Modelado e implementación de base de datos en SQL Server</li>
+                    <li>Autenticación JWT, CRUDs completos y DTOs</li>
+                    <li>Backoffice MVC y documentación técnica y funcional</li>
+                </ul>
+            </div>
+            <div class="glass exp-card">
+                <div class="exp-top"><h3>Diseñadora Textil / Analista de Procesos</h3><span class="exp-badge">2006 – Actualidad</span></div>
+                <div class="exp-co">Printel S.A.</div>
+                <ul class="proj-features">
+                    <li>Análisis de procesos y trabajo con sistemas internos</li>
+                    <li>Coordinación con distintas áreas operativas</li>
+                    <li>Gestión de equipos y proyectos de largo plazo</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education">
+            <p class="s-tag">// 05 · formación</p>
+            <h2 class="s-title">Educación</h2>
+            <div class="s-bar"></div>
+            <div class="edu-grid">
+                <div class="glass edu-card"><div class="edu-status done">✓ Completado · 2023–2025</div><h3>Analista de Sistemas de Información</h3><p>Instituto Superior Nuestra Señora de la Paz</p></div>
+                <div class="glass edu-card"><div class="edu-status progress">⟳ En curso</div><h3>Power BI</h3><p>Udemy</p></div>
+                <div class="glass edu-card"><div class="edu-status progress">⟳ En curso</div><h3>Java para Principiantes</h3><p>Todo Code</p></div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <p class="s-tag">// 06 · contacto</p>
+            <h2 class="s-title">Hablemos</h2>
+            <div class="s-bar"></div>
+            <div class="glass contact-box">
+                <p class="contact-intro">Estoy buscando mi primera oportunidad profesional en desarrollo backend. Si tenés una posición o proyecto donde pueda aportar, ¡me encantaría escucharte!</p>
+                <div class="c-links">
+                    <a href="mailto:carlavc.86@gmail.com" class="c-link"><span class="c-icon">📧</span><div><div class="c-lbl">Email</div><div class="c-val">carlavc.86@gmail.com</div></div></a>
+                    <a href="tel:+5491156606689" class="c-link"><span class="c-icon">📱</span><div><div class="c-lbl">Teléfono / WhatsApp</div><div class="c-val">11 5660-6689</div></div></a>
+                    <a href="https://www.linkedin.com/in/carla-carpinetti" target="_blank" class="c-link"><span class="c-icon">💼</span><div><div class="c-lbl">LinkedIn</div><div class="c-val">carla carpinetti</div></div></a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>© 2025 Carla Carpinetti · Analista de Sistemas de Información · Backend Developer .NET</footer>
+
+</body>
+</html>
